@@ -1,0 +1,53 @@
+#introducao {
+  max-width: 100%;
+  background: #fff;
+  margin-bottom: 40px;
+}
+
+#introducao .intro {
+  max-width: 924px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#introducao h1 {
+  font-size: 2rem;
+}
+
+#introducao .texto-intro {
+  background: rgb(255, 229, 240);
+  padding: 40px;
+  text-align: right;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.texto-intro span {
+  color: #ff87b7;
+}
+
+.texto-intro a {
+  background: rgb(210, 151, 237);
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #4e4e4e;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+.texto-intro a:hover {
+  background: rgb(199, 139, 227);
+  transition: 0.3s;
+}
+
+.img-intro {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+}

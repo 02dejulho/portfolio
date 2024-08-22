@@ -1,0 +1,43 @@
+#newsletter {
+  max-width: 924px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+#newsletter h5 {
+  color: #ff87b7;
+  font-size: 2rem;
+}
+
+#newsletter p {
+  display: block;
+  padding: 5px;
+  font-size: 1.025rem;
+}
+
+#newsletter input {
+  width: 280px;
+  height: 35px;
+}
+
+#newsletter .news-botao {
+  background: rgb(210, 151, 237);
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #4e4e4e;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  align-items: center;
+}
+
+#newsletter i {
+  font-size: 1rem;
+}
+
+#newsletter a:hover {
+  background: rgb(199, 139, 227);
+  transition: 0.3s;
+}

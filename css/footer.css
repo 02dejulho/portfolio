@@ -1,0 +1,22 @@
+#info {
+  max-width: 100%;
+  background: rgb(255, 229, 240);
+}
+
+#info .info-footer {
+  max-width: 924px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-footer p {
+  text-align: center;
+}
+
+#info .logo-footer {
+  width: 100px;
+  color: #fff;
+}

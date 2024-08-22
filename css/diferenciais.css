@@ -1,0 +1,32 @@
+#diferenciais {
+  max-width: 100%;
+  background: #fff;
+  padding: 40px 0px;
+}
+
+.dif-container {
+  max-width: 924px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dif-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dif-item .dif-i {
+  width: 80px;
+  justify-items: center;
+}
+
+.dif-item p {
+  display: flex;
+  font-size: 1.025rem;
+  color: #74c0fa;
+  text-align: left;
+  padding: 4px 0px;
+}

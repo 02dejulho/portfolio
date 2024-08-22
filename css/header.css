@@ -1,0 +1,83 @@
+#header-intro {
+  padding: 15px 30px;
+  background-color: rgb(255, 229, 240);
+  color: #4e4e4e;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-icons {
+  display: flex;
+  gap: 15px;
+}
+
+#header-icons i {
+  color: #4e4e4e;
+  font-size: 1.2rem;
+}
+
+#header-icons i:hover {
+  color: #74c0fa;
+}
+
+#header-menu {
+  max-width: 924px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+#nav-bar ul {
+  display: flex;
+  gap: 30px;
+}
+
+#nav-bar ul a {
+  background: rgb(210, 151, 237);
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #4e4e4e;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+#nav-bar ul a:hover {
+  background: rgb(199, 139, 227);
+  transition: 0.3s;
+}
+
+#header-menu-lista {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+#nav-bar-lista ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#nav-bar-lista ul a {
+  text-transform: lowercase;
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #74c0fa;
+}
+
+#nav-bar-lista ul a:hover {
+  color: #ff87b7;
+  transition: 0.3s;
+}
