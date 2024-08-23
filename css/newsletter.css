@@ -65,3 +65,22 @@
     align-items: center;
   }
 }
+
+@media (max-width: 430px) {
+  #newsletter input {
+    width: 200px;
+    height: 28px;
+  }
+
+  #newsletter .news-botao {
+    background: rgb(210, 151, 237);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #4e4e4e;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    align-items: center;
+  }
+}
