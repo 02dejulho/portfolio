@@ -7,7 +7,6 @@
 #introducao .intro {
   max-width: 924px;
   margin: 0 auto;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -50,4 +49,68 @@
   object-fit: cover;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
+}
+
+@media (max-width: 1015px) {
+  #introducao .intro {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  #introducao .texto-intro {
+    background: rgb(255, 229, 240);
+    padding: 40px;
+    text-align: left;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: start;
+    border-radius: 10px;
+  }
+
+  .img-intro {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 470px) {
+  #introducao .intro {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  #introducao h1 {
+    font-size: 1.5rem;
+  }
+
+  #introducao .texto-intro {
+    background: rgb(255, 229, 240);
+    padding: 40px;
+    text-align: left;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: start;
+  }
+
+  .texto-intro a {
+    background: rgb(210, 151, 237);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #4e4e4e;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+  }
+
+  .img-intro {
+    object-fit: cover;
+  }
 }

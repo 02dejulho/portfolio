@@ -12,11 +12,34 @@
   align-items: center;
 }
 
-.info-footer p {
+.info-footer {
   text-align: center;
 }
 
 #info .logo-footer {
   width: 100px;
   color: #fff;
+}
+
+.contato a {
+  color: #4e4e4e;
+}
+
+.contato a:hover {
+  color: rgb(255, 90, 216);
+}
+
+@media (max-width: 955px) {
+  #info .info-footer {
+    max-width: 924px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: block;
+  }
+
+  #info .logo-footer {
+    margin: 0 auto;
+    width: 100px;
+    color: #fff;
+  }
 }

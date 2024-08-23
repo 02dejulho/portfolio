@@ -8,6 +8,7 @@
 #newsletter h5 {
   color: #ff87b7;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 #newsletter p {
@@ -40,4 +41,27 @@
 #newsletter a:hover {
   background: rgb(199, 139, 227);
   transition: 0.3s;
+}
+
+@media (max-width: 470px) {
+  #newsletter h5 {
+    font-size: 1.2rem;
+  }
+
+  #newsletter input {
+    width: 240px;
+    height: 28px;
+  }
+
+  #newsletter .news-botao {
+    background: rgb(210, 151, 237);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #4e4e4e;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    align-items: center;
+  }
 }

@@ -37,6 +37,7 @@
 
 #nav-bar ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -65,8 +66,7 @@
 
 #nav-bar-lista ul {
   display: flex;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-between;
 }
 
 #nav-bar-lista ul a {
@@ -80,4 +80,78 @@
 #nav-bar-lista ul a:hover {
   color: #ff87b7;
   transition: 0.3s;
+}
+
+@media (max-width: 1075px) {
+  #header-menu-lista {
+    display: none;
+  }
+}
+
+@media (max-width: 1015px) {
+  #header-menu {
+    max-width: 924px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #header-menu .logo {
+    margin: 0 auto;
+  }
+
+  #nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 15px;
+  }
+
+  #nav-bar ul a {
+    background: rgb(210, 151, 237);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #4e4e4e;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+  }
+}
+
+@media (max-width: 630px) {
+  #header-intro {
+    font-size: 0.8rem;
+  }
+
+  #header-icons i {
+    color: #4e4e4e;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 470px) {
+  #nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 15px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  #nav-bar ul a {
+    background: rgb(210, 151, 237);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #4e4e4e;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+  }
 }
