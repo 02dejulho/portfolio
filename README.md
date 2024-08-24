@@ -14,6 +14,13 @@ Utilização de JavaScript em funcionalidades como:
 - apresentação de slides; 
 - validação de e-mail
 - mensagem ao passar o mouse em um determinado elemento.
+<p></p>
+
+## ✅ Resultado
+
+<p>➡️ <a href="https://lucianatii.github.io/acapsula/">Projeto Desenvolvido</a></p>
+
+
 
 
 
